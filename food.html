@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,200;1,300;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bibimbap Recipe</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            font-size: 17px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* .recipe {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        
+        } */
+
+        .recipe h2 {
+            color: #17364e;
+        }
+
+        .instructions ol {
+            list-style-type: decimal;
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .photo-container img {
+            max-width: 45%;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 44px;
+            border-radius: 10px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            line-height: 1.5;
+        }
+        
+        .instructions {
+            margin-bottom: 40px;
+            background-color: #fff;
+            padding: 44px;
+            border-radius: 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            padding-left: 50;
+            line-height: 1.5;
+        }
+
+        .recipe h2, .instructions h2 {
+            color: #17364e;
+        }
+
+        .instructions ol {
+            list-style-type: decimal;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            /* position: fixed; */
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Flavoursome Recipes</div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="RecipeBook.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="food.html">Recipes</a></li>
+                <!-- <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li> -->
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="recipe">
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>1 cup cooked white rice</li>
+                <li>1/2 cup julienned carrots</li>
+                <li>1/2 cup julienned cucumber</li>
+                <li>1/2 cup bean sprouts</li>
+                <li>1/2 cup spinach</li>
+                <li>1/2 cup thinly sliced beef or tofu</li>
+                <li>1 egg</li>
+                <li>Sesame oil</li>
+                <li>Soy sauce</li>
+                <li>Gochujang (Korean chili paste)</li>
+                <li>Sesame seeds</li>
+            </ul>
+        </section>
+        <section class="recipe">
+            <h2>Instructions:</h2>
+            <ol>
+                <li>Cook rice according to package instructions.</li>
+                <li>Prepare all vegetables by washing and cutting them into thin strips.</li>
+                <li>Heat a pan over medium heat and cook beef or tofu until fully cooked.</li>
+                <li>In the same pan, cook the egg sunny-side-up or to your preferred doneness.</li>
+                <li>In individual serving bowls, place cooked rice at the bottom.</li>
+                <li>Arrange the vegetables and cooked beef/tofu on top of the rice.</li>
+                <li>Place the cooked egg on top.</li>
+                <li>Drizzle with sesame oil, soy sauce, and gochujang to taste.</li>
+                <li>Sprinkle sesame seeds on top.</li>
+                <li>Mix everything together thoroughly before eating.</li>
+            </ol>
+        </section>
+        <section class="recipe">
+            <h2>Photos:</h2>
+            <div class="photo-container">
+                <img src="bibimbap1.jpg" alt="Bibimbap">
+                <img src="bibimbap2.jpg" alt="Bibimbap">
+                <!-- Add more images here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="social-icon"> <i class="fab fa-facebook"></i> </a>
+            <a href="#" class="social-icon"> <i class="fab fa-twitter"></i> </a>
+            <a href="#" class="social-icon"> <i class="fab fa-instagram"></i> </a>
+        </div>
+        <!-- <h5>CopyRight © 2024 By  </h5> -->
+        <h5>&copy; 2024 Korean Food Delights</h5>
+    </footer>
+</body>
+</html>
